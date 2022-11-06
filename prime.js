@@ -1,6 +1,6 @@
-function checkprime(num){
-    if(num<=1){
-      return 
+function checkprime(number){
+    if(number<=1){
+      return false;
     }
     for(let i=2;i<num;i++){
         if(num%i==0){
